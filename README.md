@@ -31,6 +31,7 @@
 
 1. Customer.java
 
+```
 public class Customer {
     
     private int ID = 1;
@@ -43,9 +44,11 @@ public class Customer {
         System.out.println("Total purchases: " + total);
     }
 }
+```
 
 2. CustomerTest.java
 
+```
 public class CustomerTest {
     
     public static void main(String args[]) {
@@ -53,6 +56,7 @@ public class CustomerTest {
         myCustomer.displayCustomerInformation();
     }
 }
+```
 
 3. Скрін працюючої програми
 
