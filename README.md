@@ -27,6 +27,34 @@
 
 **На завершення виконання лабораторної роботи закомітьте ваш проект до репозиторію та здайте завдання через Google Classroom, вказавши посилання на Ваш репозиторій.**
 
+## Результат виконаних завдань
+
+1. Customer.java
+
+public class Customer {
+    
+    private int ID = 1;
+    private boolean isNew = true;
+    private double total = 1000;
+
+    public void displayCustomerInformation() {
+        System.out.println("Customer ID: " + ID);
+        System.out.println("Client status: " + isNew);
+        System.out.println("Total purchases: " + total);
+    }
+}
+
+2. CustomerTest.java
+
+public class CustomerTest {
+    
+    public static void main(String args[]) {
+        Customer myCustomer = new Customer();
+        myCustomer.displayCustomerInformation();
+    }
+}
+
+
 :triangular_flag_on_post: **УВАГА!** Ваша оцінка залежить від того, що саме було вами зроблено:
 * на "**три**" - просто виконані перелічені вище завдання
 * на "**чотири**" - те, що на "три", плюс, добре оформлений файл змініть файл ````README.md````  - з кодом класу ```` Сustomer ```` та скріншотом роботи програми
@@ -34,7 +62,7 @@
   * додати **конструктор за замовчуванням**, який ініціалізує атрибути початковими значеннями (див. відеозапис лекції) 
   * додати **методи для зміни атрибутів** - ````setID````, ````setStatus````, ````setTotal```` з відповідними параметрами та перевіркою присвоюваних значень (можуть або нічого не повертати, або повертати булевське значення, див. відеозапис лекції). 
 **Підказка:** натисніть в Netbeans <kbd>Alt</kbd> + <kbd>Insert</kbd> і оберіть пункт "Getter and Setter..." - Netbeans напише все замість вас!
-![](https://github.com/ppc-ntu-khpi/Class-Starter/raw/main/images/GetterAndSetter.png)
+![](https://github.com/ppc-ntu-khpi/java-1-MargoBB/blob/main/Solution/done.png)
   * **використати ці методи** в методі в методі ````main```` класу````CustomerTest````
   * зробити та зберегти (тека **Solution**) у файл ````advanced.png```` **скріншот** результатів роботи програми, та модифікувати файл ````README.md````відповідним чином
 
