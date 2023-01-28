@@ -54,6 +54,9 @@ public class CustomerTest {
     }
 }
 
+3. Скрін працюючої програми
+
+![](https://github.com/ppc-ntu-khpi/java-1-MargoBB/blob/main/Solution/done.png)
 
 :triangular_flag_on_post: **УВАГА!** Ваша оцінка залежить від того, що саме було вами зроблено:
 * на "**три**" - просто виконані перелічені вище завдання
@@ -62,7 +65,7 @@ public class CustomerTest {
   * додати **конструктор за замовчуванням**, який ініціалізує атрибути початковими значеннями (див. відеозапис лекції) 
   * додати **методи для зміни атрибутів** - ````setID````, ````setStatus````, ````setTotal```` з відповідними параметрами та перевіркою присвоюваних значень (можуть або нічого не повертати, або повертати булевське значення, див. відеозапис лекції). 
 **Підказка:** натисніть в Netbeans <kbd>Alt</kbd> + <kbd>Insert</kbd> і оберіть пункт "Getter and Setter..." - Netbeans напише все замість вас!
-![](https://github.com/ppc-ntu-khpi/java-1-MargoBB/blob/main/Solution/done.png)
+![](https://github.com/ppc-ntu-khpi/Class-Starter/raw/main/images/GetterAndSetter.png)
   * **використати ці методи** в методі в методі ````main```` класу````CustomerTest````
   * зробити та зберегти (тека **Solution**) у файл ````advanced.png```` **скріншот** результатів роботи програми, та модифікувати файл ````README.md````відповідним чином
 
