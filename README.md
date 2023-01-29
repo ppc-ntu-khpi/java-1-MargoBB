@@ -31,7 +31,7 @@
 
 1. Customer.java
 
-```
+```java
 public class Customer {
     
     private int ID = 1;
@@ -48,7 +48,7 @@ public class Customer {
 
 2. CustomerTest.java
 
-```
+```java
 public class CustomerTest {
     
     public static void main(String args[]) {
