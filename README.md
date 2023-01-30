@@ -27,6 +27,95 @@
 
 **На завершення виконання лабораторної роботи закомітьте ваш проект до репозиторію та здайте завдання через Google Classroom, вказавши посилання на Ваш репозиторій.**
 
+## Результат виконаних завдань
+
+1. **Customer.java**
+
+```java
+public class Customer {
+    
+    private int ID = 1;
+    private boolean isNew = true;
+    private double total = 1000;
+
+    public void displayCustomerInformation() {
+        System.out.println("Customer ID: " + ID);
+        System.out.println("Client status: " + isNew);
+        System.out.println("Total purchases: " + total);
+    }
+}
+```
+
+2. **CustomerTest.java**
+
+```java
+public class CustomerTest {
+    
+    public static void main(String args[]) {
+        Customer myCustomer = new Customer();
+        myCustomer.displayCustomerInformation();
+    }
+}
+```
+
+3. Скрін працюючої програми
+
+![](https://github.com/ppc-ntu-khpi/java-1-MargoBB/blob/main/Solution/done.png)
+
+## Результат виконаних додаткових завдань
+
+1. **Customer.java**
+
+```
+
+public class Customer {
+    
+    int ID;
+    boolean isNew;
+    double total;
+
+    public Customer(){}
+
+}
+
+```
+
+2. **Constructor.java**
+
+```
+
+public class Constructor {
+    
+    public void foo(){
+        Customer customer = new Customer();
+        customer.ID = 1;
+        customer.isNew = true;
+        customer.total = 1000;
+
+        System.out.println(customer.ID + " " + customer.isNew + " " + customer.total);
+    }
+}
+
+```
+
+3. **CustomerTest.java**
+
+```
+
+public class CustomerTest {
+    
+    public static void main(String args[]) {
+        Constructor constructor = new Constructor();
+        constructor.foo();
+    }
+}
+
+```
+
+3. Скрін працюючої програми
+
+![](https://github.com/ppc-ntu-khpi/java-1-MargoBB/blob/main/Solution/done1.png)
+
 :triangular_flag_on_post: **УВАГА!** Ваша оцінка залежить від того, що саме було вами зроблено:
 * на "**три**" - просто виконані перелічені вище завдання
 * на "**чотири**" - те, що на "три", плюс, добре оформлений файл змініть файл ````README.md````  - з кодом класу ```` Сustomer ```` та скріншотом роботи програми
